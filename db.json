@@ -1,0 +1,60 @@
+{
+  "todos": [
+    {
+      "title": "Aplicar React Hook Form",
+      "completed": true,
+      "id": "CGL3qqIj6Z4"
+    },
+    {
+      "title": "Adicionar Zod",
+      "completed": true,
+      "id": "5H_TOrQO8VI"
+    },
+    {
+      "title": "Utilizar Tailwind",
+      "completed": true,
+      "id": "Q6-XKTIMxTY"
+    },
+    {
+      "title": "Criar componentes com Shadcn/radix",
+      "completed": true,
+      "id": "18MzPLABdGM"
+    },
+    {
+      "title": "Criar aplicação React 19 + Vite + TypeScript",
+      "completed": true,
+      "id": "7nZEn3KsEOc"
+    },
+    {
+      "title": "Usar TanStack Query para cache, busca e sincronização",
+      "completed": true,
+      "id": "JKjVMfr8a-Q"
+    },
+    {
+      "title": "Criar Backend Fake com Json Server",
+      "completed": true,
+      "id": "jDoJ8DNHk0k"
+    },
+    {
+      "title": "Criar campo para editar Todo",
+      "completed": false,
+      "id": "IGo9YGbJUjU"
+    },
+    {
+      "title": "Utilizar axios em vez de fetch",
+      "completed": false,
+      "id": "2Jgl3JuU6Mw"
+    },
+    {
+      "title": "Adicionar Lucide Icons na lista",
+      "completed": false,
+      "id": "3Y8qB8RWTMg"
+    },
+    {
+      "title": "Adicionar e remover usando setQueryData ao invés do invalidateQuerys",
+      "completed": false,
+      "id": "Te9ySeNvCB4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
