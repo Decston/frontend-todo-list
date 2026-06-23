@@ -1,7 +1,7 @@
 {
   "todos": [
     {
-      "title": "Aplicar React Hook Form",
+      "title": "Aplicar React Hook Form na aplicação",
       "completed": true,
       "id": "CGL3qqIj6Z4"
     },
@@ -37,7 +37,7 @@
     },
     {
       "title": "Criar campo para editar Todo",
-      "completed": false,
+      "completed": true,
       "id": "IGo9YGbJUjU"
     },
     {

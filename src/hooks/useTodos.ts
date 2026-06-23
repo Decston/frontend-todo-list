@@ -27,6 +27,12 @@ export function useTodos() {
     onSuccess: () => queryClient.invalidateQueries({ queryKey: TODOS_KEY }),
   })
 
+  const editTodo = useMutation({
+  mutationFn: ({ id, title }: { id: string; title: string }) =>
+    todoService.update(id, { title }),
+  onSuccess: () => queryClient.invalidateQueries({ queryKey: TODOS_KEY }),
+})
+
   // Mutation para remover um todo
   const removeTodo = useMutation({
     mutationFn: (id: string) => todoService.remove(id),
@@ -39,6 +45,7 @@ export function useTodos() {
     isError: todosQuery.isError,
     createTodo,
     updateTodo,
+    editTodo,
     removeTodo,
   }
 }
