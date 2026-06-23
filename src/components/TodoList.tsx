@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Pencil, Trash2 } from 'lucide-react'
 import { useTodos } from '@/hooks/useTodos'
 import { Button } from '@/components/ui/button'
 import { Checkbox } from '@/components/ui/checkbox'
@@ -35,17 +36,17 @@ export function TodoList() {
             <div className="flex gap-2">
               <Button
                 variant="outline"
-                size="sm"
+                size="icon"
                 onClick={() => setEditingTodo(todo)}
               >
-                Editar
+                <Pencil className="w-4 h-4" />
               </Button>
               <Button
                 variant="destructive"
-                size="sm"
+                size="icon"
                 onClick={() => removeTodo.mutate(todo.id)}
               >
-                Remover
+                <Trash2 className="w-4 h-4" />
               </Button>
             </div>
           </li>
