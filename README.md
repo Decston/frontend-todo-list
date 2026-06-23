@@ -1,3 +1,72 @@
+# 📝 Todo List
+
+Aplicação de lista de tarefas construída com React 19 e TypeScript, utilizando as principais bibliotecas do ecossistema moderno do React.
+
+## 🚀 Tecnologias
+
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [Shadcn/UI](https://ui.shadcn.com/)
+- [TanStack Query](https://tanstack.com/query)
+- [React Hook Form](https://react-hook-form.com/)
+- [Zod](https://zod.dev/)
+- [Axios](https://axios-http.com/)
+- [JSON Server](https://github.com/typicode/json-server)
+- [Lucide React](https://lucide.dev/)
+
+## ✅ Funcionalidades
+
+- Listar tarefas
+- Adicionar nova tarefa
+- Editar tarefa existente
+- Marcar tarefa como concluída
+- Remover tarefa
+
+## 📦 Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado na sua máquina:
+
+- [Node.js](https://nodejs.org/) (versão 18 ou superior)
+- [Yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
+
+## 🔧 Instalação e execução
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/SEU_USUARIO/todo-list.git
+cd todo-list
+```
+
+### 2. Instale as dependências
+
+```bash
+yarn install
+```
+
+### 3. Inicie a API fake (JSON Server)
+
+Em um terminal, execute:
+
+```bash
+yarn server
+```
+
+A API estará disponível em: `http://localhost:3001`
+
+### 4. Inicie o servidor de desenvolvimento
+
+Em outro terminal, execute:
+
+```bash
+yarn dev
+```
+
+A aplicação estará disponível em: `http://localhost:5173`
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
