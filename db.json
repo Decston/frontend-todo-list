@@ -52,7 +52,7 @@
     },
     {
       "title": "Adicionar e remover usando setQueryData ao invés do invalidateQuerys",
-      "completed": false,
+      "completed": true,
       "id": "Te9ySeNvCB4"
     }
   ],
